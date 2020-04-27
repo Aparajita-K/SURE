@@ -82,9 +82,9 @@ out=SURE(LogData,rank=rank,K=K,modname=modname)
 
 ##### Contact Information
 
-| Aparajita Khan   
-| Senior Research Fellow   
-| Machine Intelligence Unit    
-| Indian Statistical Institute    
-| 203, B. T. Road    
-| Kolkata- 700108    
+Aparajita Khan   
+Senior Research Fellow   
+Machine Intelligence Unit    
+Indian Statistical Institute    
+203, B. T. Road    
+Kolkata- 700108    
