@@ -33,7 +33,7 @@ Arguments
 
 ``K``: The number of clusters in the data set.
 
-``mod``: A string array of names of the modalities. Required for modality selection. Example: ``mod=c("RNA","miRNA","CNV")``
+``modname``: A string array of names of the modalities. Required for modality selection. Example: ``mod=c("RNA","miRNA","CNV")``
 
 #### Example Call:
 
