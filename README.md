@@ -22,7 +22,7 @@ File ``SURE.R`` contains the R implementation of the proposed method as a functi
 Function Name: ``SURE``
 
 #### #Usage
-``SURE(Data, rank, K, mod)``
+``SURE(Data, rank, K, modname)``
 
 
 Arguments
