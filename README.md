@@ -38,6 +38,7 @@ Arguments
 #### Example Call:
 
 ```r
+#SURE on glioblastoma multiforme (GBM) data set
 Data<-list()
 Data[[1]] <- as.matrix(read.table("DataSets/GBM/RNA", sep=" ",header=TRUE,row.names=1))
 Data[[2]] <- as.matrix(read.table("DataSets/GBM/miRNA", sep=" ",header=TRUE,row.names=1))
@@ -53,6 +54,7 @@ For the CESC Data set, log transform sequence based RNA and miRNA modalities bef
 #### Example Call:
 
 ```r
+#SURE on cervical carcinoma (CESC) data set
 DataSet="CESC"
 n=124
 K=3
