@@ -15,6 +15,8 @@ The algorithm first the extracts ``r`` eigenspaces of the individual modalities 
 ![Individual Eigenspaces](/Images/Individual-Eigenspaces.jpg)  
 The algorithm constructs the joint eigenspace of **X** by merging the individual left and right singular subspaces, taking into account the intersection and residual of the overlapping subspaces.
 
+![Joint Eigenspace](/Images/Joint-Eigenspace.jpg)
+
 #### Execution Instructions 
 R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExample.R` files, respectively. To run the SURE algorithm on these data sets within the R environment execute:
 >source("GBMExample.R")   
