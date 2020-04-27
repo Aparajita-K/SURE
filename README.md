@@ -15,7 +15,7 @@ The algorithm first the extracts ``r`` eigenspaces of the individual modalities 
 ![Individual Eigenspaces](/Images/Individual-Eigenspaces.jpg)  
 The algorithm constructs the joint eigenspace of **X** by merging the individual left and right singular subspaces, taking into account the intersection and residual of the overlapping subspaces.
 
-![Joint Eigenspace](/Images/Joint-Eigenspace.jpg)
+![Joint Eigenspace](/Images/Joint-Eigenspace.jpg)   
 After extracting the joint eigenspace, *K*-means clustering is performed on the first ``k`` columns of the joint left-subspace U(**X**) to obtain the clusters. 
 
 #### Execution Instructions 
