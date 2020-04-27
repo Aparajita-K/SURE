@@ -1,4 +1,4 @@
-SURE<-function(Dlist,rank=2,K=2,modname=c("mDNA","RNA","miRNA","Protein"))
+SURE<-function(Dlist,rank=2,K=2,modname=c("mDNA","RNA","miRNA","RPPA"))
 {
     cat("\nExecuting SURE Algorithm\n")
 	Data=Dlist
