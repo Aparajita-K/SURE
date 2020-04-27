@@ -4,7 +4,7 @@ Selective Update of Relevant Eigenspaces
 ### Article:
 A. Khan and P. Maji, "Selective Update of Relevant Eigenspaces for Integrative Clustering of Multimodal Data," *IEEE Transactions on Cybernetics*, pp. 1--13, 2020. 
 
-#### Execution Instructions for R
+#### Execution Instructions 
 R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExample.R` files, respectively. To run the SURE algorithm on these data sets within the R environment execute:
 >source("GBMExample.R")
 
@@ -35,7 +35,7 @@ Arguments
 
 ``mod``: A string array of names of the modalities. Required for modality selection. Example: ``mod=c("RNA","miRNA","CNV")``
 
-### Example Call:
+#### Example Call:
 
 ```r
 Data<-list()
@@ -50,7 +50,7 @@ out=SURE(Data,rank=K,K=K,modname=modname)
 
 For the CESC Data set, log transform sequence based RNA and miRNA modalities before execution of SURE Algorithm.
 
-### Example Call:
+#### Example Call:
 
 ```r
 DataSet="CESC"
