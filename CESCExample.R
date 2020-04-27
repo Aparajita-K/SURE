@@ -22,5 +22,9 @@ cat("\nDataset=",DataSet)
 cat("\n#Samples=",n)
 cat("\nModalities=",modname)
 source("SURE.R")
-out=SURE(LogData,rank=rank,K=K,modname=modname)
+JointSVD=SURE(LogData,rank=rank,K=K,modname=modname)
+
+Dmat=JointSVD$U
+clust=kmeans(Dmat,K,iter.max=100,nstart=30)$cluster
+cat("\n Clustering: \n",clust)
 
