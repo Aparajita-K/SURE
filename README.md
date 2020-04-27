@@ -11,9 +11,9 @@ The SURE algorithm permforms integrative clustering on high-dimensional multimod
 
 #### Execution Instructions 
 R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExample.R` files, respectively. To run the SURE algorithm on these data sets within the R environment execute:
->source("GBMExample.R")
+>source("GBMExample.R")   
 
->source("CESCExample.R")
+>source("CESCExample.R")   
 
 Components of the joint eigenspace are written to the following files:
 - ``JointU.txt`` - contains ``(n x r)`` joint left subspace, where ``n`` is the number of samples in the data set and ``r`` is  the rank of the joint subspace.
@@ -24,12 +24,9 @@ The principal components of the integrated data matrix can be obtained by multip
 The *K*-means clustering can then be perfomed on the principal components.   
 File ``SURE.R`` contains the R implementation of the proposed method as a function ``SURE``. Details of the fuctions is as follows:
 
-Function Name: ``SURE``
-
+Function Name: ``SURE``   
 #### #Usage
-``SURE(Data, rank, K, modname)``
-
-
+``SURE(Data, rank, K, modname)``    
 Arguments
 
 ``Data``:  A list object containing ``M`` data matrices representing ``M`` different omic data types measured in a set of ``n`` samples. For each matrix, the rows represent samples, and the columns represent genomic features. The matrices in the list can have variable number of columns (features), but they all must have the same number of ``n`` rows(samples).
