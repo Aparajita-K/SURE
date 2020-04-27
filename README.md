@@ -16,7 +16,7 @@ The algorithm first the extracts ``r`` eigenspaces of the individual modalities 
 The algorithm constructs the joint eigenspace of **X** by merging the individual left and right singular subspaces, taking into account the intersection and residual of the overlapping subspaces.
 
 ![Joint Eigenspace](/Images/Joint-Eigenspace.jpg)   
-After extracting the joint eigenspace, *K*-means clustering is performed on the first ``k`` columns of the joint left-subspace U(**X**) to obtain the clusters. 
+After extracting the joint eigenspace, *K*-means clustering can be performed on the first ``k`` columns of the ``(n x r)`` joint left-subspace U(**X**) to obtain the clusters of the multimodal data set. 
 
 #### Execution Instructions 
 R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExample.R` files, respectively. To run the SURE algorithm on these data sets within the R environment execute:
