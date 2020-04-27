@@ -4,6 +4,9 @@ Selective Update of Relevant Eigenspaces
 ### Article:
 A. Khan and P. Maji, "Selective Update of Relevant Eigenspaces for Integrative Clustering of Multimodal Data," *IEEE Transactions on Cybernetics*, pp. 1--13, 2020. 
 
+![Multimodal Data](/Images/Multimodal-Data.jpg)
+
+
 #### Execution Instructions 
 R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExample.R` files, respectively. To run the SURE algorithm on these data sets within the R environment execute:
 >source("GBMExample.R")
