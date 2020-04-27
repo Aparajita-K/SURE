@@ -8,7 +8,7 @@ The SURE algorithm permforms integrative clustering on high-dimensional multimod
 
 ![Multimodal Data](/Images/Multimodal-Data.jpg)
 The algorithm extracts a ``r`` dimensional joint eigenspace of the integrated data matrix **X** given by   
-**X** = [X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>M</sub>],   
+**X** = [X<sub>1</sub> X<sub>2</sub> ... X<sub>M</sub>],   
 from rank ``r`` eigenspaces of the individual modalities X<sub>m</sub>'s.   
 The algorithm first the extracts ``r`` eigenspaces of the individual modalities using their singular value decomposition.
 
