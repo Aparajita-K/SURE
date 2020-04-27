@@ -79,3 +79,12 @@ LogData[[3]]=log(LogData[[3]],base=10)
 source("SURE.R")
 out=SURE(LogData,rank=rank,K=K,modname=modname)
 ```
+
+##### Contact Information
+
+| Aparajita Khan
+| Senior Research Fellow
+| Machine Intelligence Unit
+| Indian Statistical Institute
+| 203, B. T. Road
+| Kolkata- 700108
