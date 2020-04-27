@@ -83,6 +83,8 @@ source("SURE.R")
 JointSVD=SURE(LogData,rank=rank,K=K,modname=modname)
 ```
 
+Description of the multimodal data sets used in this work, along with their statistical power and survival analyses results are given in ``Appendix.pdf`` file. 
+
 ##### Contact Information
 
 Aparajita Khan   
