@@ -1,5 +1,5 @@
 # SURE
-Selective Update of Relevant Eigenspaces
+Selective Update of Relevant Eigenspaces   
 
 ### Article:
 A. Khan and P. Maji, "Selective Update of Relevant Eigenspaces for Integrative Clustering of Multimodal Data," *IEEE Transactions on Cybernetics*, pp. 1--13, 2020. 
