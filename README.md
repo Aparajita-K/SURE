@@ -37,8 +37,7 @@ Arguments-
 
 ``modname``: A string array of names of the modalities. Required for modality selection. Example: ``mod=c("RNA","miRNA","CNV")``
 
-#### Example Call:
-
+#### Example Call:   
 ```r
 #SURE on glioblastoma multiforme (GBM) data set
 Data<-list()
@@ -51,10 +50,8 @@ source("SURE.R")
 out=SURE(Data,rank=K,K=K,modname=modname)
 ```
 
-For the CESC Data set, log transform sequence based RNA and miRNA modalities before execution of SURE Algorithm.
-
-#### Example Call:
-
+For the CESC Data set, log transform sequence based RNA and miRNA modalities before execution of SURE Algorithm.   
+#### Example Call:   
 ```r
 #SURE on cervical carcinoma (CESC) data set
 DataSet="CESC"
