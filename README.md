@@ -7,6 +7,10 @@ A. Khan and P. Maji, "Selective Update of Relevant Eigenspaces for Integrative C
 The SURE algorithm permforms integrative clustering on high-dimensional multimodal data sets. A multimodal data set consists of ``M`` modalities X<sub>1</sub>, ..., X<sub>m</sub>, ..., X<sub>M</sub>. Each modality X<sub>m</sub> represents the observations for same set of ``n`` samples from the ``m``-th data source.
 
 ![Multimodal Data](/Images/Multimodal-Data.jpg)
+The algorithm extracts a ``r`` dimensional joint eigenspace of the integrated data matrix **X** given by   
+**X** = [X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>M</sub>]  
+from rank ``r`` eigenspaces of the individual modalities X<sub>m</sub>'s.   
+The algorithm first the extracts ``r`` eigenspaces of the individual modalities using their singular value decomposition.
 
 
 #### Execution Instructions 
@@ -82,3 +86,4 @@ Machine Intelligence Unit
 Indian Statistical Institute    
 203, B. T. Road    
 Kolkata- 700108    
+E-mail: aparajitak_r@isical.ac.in,  aparajitakhan1107@gmail.com
