@@ -64,7 +64,7 @@ Data[[1]] <- as.matrix(read.table(paste0("DataSets/",DataSet,"/mDNA"), sep=" ",h
 Data[[2]] <- as.matrix(read.table(paste0("DataSets/",DataSet,"/RNA"), sep=" ",header=TRUE,row.names=1))
 Data[[3]] <- as.matrix(read.table(paste0("DataSets/",DataSet,"/miRNA"), sep=" ",header=TRUE,row.names=1))
 Data[[4]] <- as.matrix(read.table(paste0("DataSets/",DataSet,"/Protein"), sep=" ",header=TRUE,row.names=1))
-modname=c("DNA","GEN","MIR","PRO")
+modname=c("mDNA","RNA","miRNA","RPPA")
 #Log Transform of Sequence based Gene and miRNA modality
 LogData=Data
 LogData[[2]][LogData[[2]]==0]=1
