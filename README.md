@@ -80,7 +80,7 @@ LogData[[2]]=log(LogData[[2]],base=10)
 LogData[[3]][LogData[[3]]==0]=1
 LogData[[3]]=log(LogData[[3]],base=10)
 source("SURE.R")
-out=SURE(LogData,rank=rank,K=K,modname=modname)
+JointSVD=SURE(LogData,rank=rank,K=K,modname=modname)
 ```
 
 ##### Contact Information
