@@ -27,7 +27,7 @@ File ``SURE.R`` contains the R implementation of the proposed method as a functi
 Function Name: ``SURE``   
 #### #Usage
 ``SURE(Data, rank, K, modname)``    
-Arguments
+Arguments-
 
 ``Data``:  A list object containing ``M`` data matrices representing ``M`` different omic data types measured in a set of ``n`` samples. For each matrix, the rows represent samples, and the columns represent genomic features. The matrices in the list can have variable number of columns (features), but they all must have the same number of ``n`` rows(samples).
 
