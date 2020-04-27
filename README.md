@@ -10,7 +10,7 @@ R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExam
 
 >source("CESCExample.R")
 
-Components of the Joint eigenspace are written to the following files:
+Components of the joint eigenspace are written to the following files:
 - ``JointU.txt`` - contains ``(n x r)`` joint left subspace, where ``n`` is the number of samples in the data set and ``r`` is  the rank of the joint subspace.
 - ``JointS.txt`` - contains ``(r x r)`` diagonal matrix of singular values.
 - ``JointV.txt`` - contains ``(d x r)`` joint right subspace, where ``d`` is the total number of features in the integrated data.
