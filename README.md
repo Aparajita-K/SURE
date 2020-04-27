@@ -12,6 +12,7 @@ The algorithm extracts a ``r`` dimensional joint eigenspace of the integrated da
 from rank ``r`` eigenspaces of the individual modalities X<sub>m</sub>'s.   
 The algorithm first the extracts ``r`` eigenspaces of the individual modalities using their singular value decomposition.
 
+![Individual Eigenspaces](/Images/Individual-Eigenspaces.jpg)
 
 #### Execution Instructions 
 R demo code for GBM and CESC data sets are given in `GBMExample.R` and `CESCExample.R` files, respectively. To run the SURE algorithm on these data sets within the R environment execute:
